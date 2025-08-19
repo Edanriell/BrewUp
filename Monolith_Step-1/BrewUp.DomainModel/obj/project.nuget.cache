@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "JYBGhEneXZQ=",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\BrewUp\\Monolith_Step-1\\BrewUp.DomainModel\\BrewUp.DomainModel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lauris\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.8\\microsoft.extensions.dependencyinjection.9.0.8.nupkg.sha512",
+    "C:\\Users\\Lauris\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.8\\microsoft.extensions.dependencyinjection.abstractions.9.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
