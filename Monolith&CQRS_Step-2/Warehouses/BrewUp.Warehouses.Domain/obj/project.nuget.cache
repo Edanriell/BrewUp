@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2ZSjgSwtkUI=",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\Warehouses\\BrewUp.Warehouses.Domain\\BrewUp.Warehouses.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lauris\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.8\\microsoft.extensions.dependencyinjection.abstractions.9.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

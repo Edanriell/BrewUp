@@ -1,0 +1,485 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\Sales\\BrewUp.Sales.Facade\\BrewUp.Sales.Facade.csproj": {}
+  },
+  "projects": {
+    "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\BrewUp.Shared\\BrewUp.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\BrewUp.Shared\\BrewUp.Shared.csproj",
+        "projectName": "BrewUp.Shared",
+        "projectPath": "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\BrewUp.Shared\\BrewUp.Shared.csproj",
+        "packagesPath": "C:\\Users\\Lauris\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\BrewUp.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lauris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\Sales\\BrewUp.Sales.Domain\\BrewUp.Sales.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\Sales\\BrewUp.Sales.Domain\\BrewUp.Sales.Domain.csproj",
+        "projectName": "BrewUp.Sales.Domain",
+        "projectPath": "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\Sales\\BrewUp.Sales.Domain\\BrewUp.Sales.Domain.csproj",
+        "packagesPath": "C:\\Users\\Lauris\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\Sales\\BrewUp.Sales.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lauris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\BrewUp.Shared\\BrewUp.Shared.csproj": {
+                "projectPath": "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\BrewUp.Shared\\BrewUp.Shared.csproj"
+              },
+              "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\Sales\\BrewUp.Sales.ReadModel\\BrewUp.Sales.ReadModel.csproj": {
+                "projectPath": "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\Sales\\BrewUp.Sales.ReadModel\\BrewUp.Sales.ReadModel.csproj"
+              },
+              "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\Sales\\BrewUp.Sales.SharedKernel\\BrewUp.Sales.SharedKernel.csproj": {
+                "projectPath": "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\Sales\\BrewUp.Sales.SharedKernel\\BrewUp.Sales.SharedKernel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\Sales\\BrewUp.Sales.Facade\\BrewUp.Sales.Facade.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\Sales\\BrewUp.Sales.Facade\\BrewUp.Sales.Facade.csproj",
+        "projectName": "BrewUp.Sales.Facade",
+        "projectPath": "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\Sales\\BrewUp.Sales.Facade\\BrewUp.Sales.Facade.csproj",
+        "packagesPath": "C:\\Users\\Lauris\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\Sales\\BrewUp.Sales.Facade\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lauris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\BrewUp.Shared\\BrewUp.Shared.csproj": {
+                "projectPath": "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\BrewUp.Shared\\BrewUp.Shared.csproj"
+              },
+              "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\Sales\\BrewUp.Sales.Domain\\BrewUp.Sales.Domain.csproj": {
+                "projectPath": "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\Sales\\BrewUp.Sales.Domain\\BrewUp.Sales.Domain.csproj"
+              },
+              "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\Sales\\BrewUp.Sales.Infrastructures\\BrewUp.Sales.Infrastructures.csproj": {
+                "projectPath": "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\Sales\\BrewUp.Sales.Infrastructures\\BrewUp.Sales.Infrastructures.csproj"
+              },
+              "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\Sales\\BrewUp.Sales.SharedKernel\\BrewUp.Sales.SharedKernel.csproj": {
+                "projectPath": "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\Sales\\BrewUp.Sales.SharedKernel\\BrewUp.Sales.SharedKernel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\Sales\\BrewUp.Sales.Infrastructures\\BrewUp.Sales.Infrastructures.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\Sales\\BrewUp.Sales.Infrastructures\\BrewUp.Sales.Infrastructures.csproj",
+        "projectName": "BrewUp.Sales.Infrastructures",
+        "projectPath": "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\Sales\\BrewUp.Sales.Infrastructures\\BrewUp.Sales.Infrastructures.csproj",
+        "packagesPath": "C:\\Users\\Lauris\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\Sales\\BrewUp.Sales.Infrastructures\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lauris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\BrewUp.Shared\\BrewUp.Shared.csproj": {
+                "projectPath": "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\BrewUp.Shared\\BrewUp.Shared.csproj"
+              },
+              "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\Sales\\BrewUp.Sales.Domain\\BrewUp.Sales.Domain.csproj": {
+                "projectPath": "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\Sales\\BrewUp.Sales.Domain\\BrewUp.Sales.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\Sales\\BrewUp.Sales.ReadModel\\BrewUp.Sales.ReadModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\Sales\\BrewUp.Sales.ReadModel\\BrewUp.Sales.ReadModel.csproj",
+        "projectName": "BrewUp.Sales.ReadModel",
+        "projectPath": "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\Sales\\BrewUp.Sales.ReadModel\\BrewUp.Sales.ReadModel.csproj",
+        "packagesPath": "C:\\Users\\Lauris\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\Sales\\BrewUp.Sales.ReadModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lauris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\BrewUp.Shared\\BrewUp.Shared.csproj": {
+                "projectPath": "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\BrewUp.Shared\\BrewUp.Shared.csproj"
+              },
+              "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\Sales\\BrewUp.Sales.SharedKernel\\BrewUp.Sales.SharedKernel.csproj": {
+                "projectPath": "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\Sales\\BrewUp.Sales.SharedKernel\\BrewUp.Sales.SharedKernel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\Sales\\BrewUp.Sales.SharedKernel\\BrewUp.Sales.SharedKernel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\Sales\\BrewUp.Sales.SharedKernel\\BrewUp.Sales.SharedKernel.csproj",
+        "projectName": "BrewUp.Sales.SharedKernel",
+        "projectPath": "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\Sales\\BrewUp.Sales.SharedKernel\\BrewUp.Sales.SharedKernel.csproj",
+        "packagesPath": "C:\\Users\\Lauris\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\Sales\\BrewUp.Sales.SharedKernel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lauris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\BrewUp.Shared\\BrewUp.Shared.csproj": {
+                "projectPath": "D:\\Projects\\BrewUp\\Monolith&CQRS_Step-2\\BrewUp.Shared\\BrewUp.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
